@@ -5,11 +5,32 @@
 
 The purpose of this repository is to merge census tract and AISD shapefile data, in order to approximate the number of elementary, middle, and high school students from each census tract in a given school catchment.
 
-Kelly P. provided a [demonstration](https://drive.google.com/drive/u/2/folders/1mWGqQw3sJ3_uWLte4CPEwUbRny_6KtaU) of the workflow.
+Kelly P. provided a [demonstration](https://drive.google.com/drive/u/2/folders/1mWGqQw3sJ3_uWLte4CPEwUbRny_6KtaU) of the workflow:
+> SABS_1516_SchoolLevels.zip notes
+> - This directory contains the school catchments for almost every school district in Texas at all grade levels (e.g. elementary, middle, high school) for the 2015-16 school year.
+> - Two districts relevant to the Austin Granular Model are missing: Burnet ISD and Austin ISD.
+> 
+> aisd_shapefiles/ notes
+> - This directory contains the shapefiles for AISD elementary, middle and high schools.
+> - These data are from the 2019-20 school year
+> 
+> 2020_texas_census_tracts/
+> - This directory contains the shapefile for all census tracts as defined in 2020
+> 
+> catchment_census_tract_overlap.ipynb
+> - This short notebook contains an example of overlapping AISD elementary school catchments with the 2020 census tracts for Texas
+> 
+> Goals:
+> 1. Merge the AISD school catchments into the SABS school catchments by grade level to produce three shapefiles: one each for elementary, middle and high schools across Texas.
+> 
+> 2. Overlap the merged catchment shapefiles with the census shapefile and calculate the percentage overlap as ( overlap area / census tract area ). This will give us the percentage, by area, of the census tract assigned to each school.
+> 
+> 3. Write the results in CSV format (following the example in the notebook)
 
 ## Authors
 
 * Ethan Ho (@eho-tacc)
+* Kelly Pierce
 
 ## Snakemake Usage
 
