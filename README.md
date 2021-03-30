@@ -21,7 +21,7 @@ Kelly P. provided a [demonstration](https://drive.google.com/drive/u/2/folders/1
 > - This short notebook contains an example of overlapping AISD elementary school catchments with the 2020 census tracts for Texas
 > 
 > Goals:
-> 1. Merge the AISD school catchments into the SABS school catchments by grade level to produce three shapefiles: one each for elementary, middle and high schools across Texas.
+> 1. Merge the AISD school catchments into the [SABS](https://nces.ed.gov/programs/edge/SABS) school catchments by grade level to produce three shapefiles: one each for elementary, middle and high schools across Texas.
 > 
 > 2. Overlap the merged catchment shapefiles with the census shapefile and calculate the percentage overlap as ( overlap area / census tract area ). This will give us the percentage, by area, of the census tract assigned to each school.
 > 
