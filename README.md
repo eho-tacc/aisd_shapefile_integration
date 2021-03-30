@@ -3,14 +3,15 @@
 [![Snakemake](https://img.shields.io/badge/snakemake-≥5.7.0-brightgreen.svg)](https://snakemake.bitbucket.io)
 [![Build Status](https://travis-ci.org/snakemake-workflows/aisd_shapefile_integration.svg?branch=master)](https://travis-ci.org/snakemake-workflows/aisd_shapefile_integration)
 
-This is the template for a new Snakemake workflow. Replace this text with a comprehensive description covering the purpose and domain.
-Insert your code into the respective folders, i.e. `scripts`, `rules`, and `envs`. Define the entry point of the workflow in the `Snakefile` and the main configuration in the `config.yaml` file.
+The purpose of this repository is to merge census tract and AISD shapefile data, in order to approximate the number of elementary, middle, and high school students from each census tract in a given school catchment.
+
+Kelly P. provided a [demonstration](https://drive.google.com/drive/u/2/folders/1mWGqQw3sJ3_uWLte4CPEwUbRny_6KtaU) of the workflow.
 
 ## Authors
 
 * Ethan Ho (@eho-tacc)
 
-## Usage
+## Snakemake Usage
 
 If you use this workflow in a paper, don't forget to give credits to the authors by citing the URL of this (original) repository and, if available, its DOI (see above).
 
