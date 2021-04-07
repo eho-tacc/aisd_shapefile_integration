@@ -3,7 +3,12 @@
 [![Snakemake](https://img.shields.io/badge/snakemake-≥5.7.0-brightgreen.svg)](https://snakemake.bitbucket.io)
 [![Build Status](https://travis-ci.org/snakemake-workflows/aisd_shapefile_integration.svg?branch=master)](https://travis-ci.org/snakemake-workflows/aisd_shapefile_integration)
 
-The purpose of this repository is to merge census tract and AISD shapefile data, in order to approximate the number of elementary, middle, and high school students from each census tract in a given school catchment.
+The purpose of this repository is to merge census tract and AISD shapefile data, in order to approximate the number of elementary, middle, and high school students from each census tract in a given school catchment. We want to do this for every 5 counties in Austin-Round Rock-San Marcos MSA:
+- Williamson
+- Bastrop
+- Travis
+- Hays
+- Caldwell
 
 Kelly P. provided a [demonstration](https://drive.google.com/drive/u/2/folders/1mWGqQw3sJ3_uWLte4CPEwUbRny_6KtaU) of the workflow:
 > SABS_1516_SchoolLevels.zip notes
